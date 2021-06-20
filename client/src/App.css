@@ -1,0 +1,79 @@
+.App {
+  text-align: center;
+}
+
+a {
+  color: #ffffff;
+}
+
+/* Homepage */
+.Homepage {
+  background-color: #2e2f37;
+  background-size: cover;
+  margin: 0;
+  height: 100vh;
+}
+
+.homepage-menu {
+  position: relative;
+  top: 120px;
+  align-items: center;
+  text-align: center;
+}
+
+.homepage-form {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 50px;
+}
+
+.homepage-form > h1 {
+  margin: 0 30px;
+}
+
+.homepage-join {
+  display: flex;
+  flex-direction: column;
+  justify-content: right;
+  width: 30%;
+}
+
+.homepage-create {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  width: 30%;
+}
+
+.game-input {
+  font-size: 15px;
+  line-height: 1.5em;
+  width: 200px;
+  background-color: #494c61;
+  outline: none;
+  border: none;
+  color: #f7f4ef;
+  font-size: 30px;
+  margin-left: auto;
+  margin-right: 30px;
+}
+
+.game-link {
+  position: relative;
+  top: 0;
+  cursor: pointer;
+  text-decoration: none !important;
+  outline: none !important;
+  font-family: "Roboto", sans-serif;
+  font-size: 50px;
+  border: none;
+  color: #aba294;
+  border-radius: 8px;
+  margin: 15px 15px 30px;
+  padding: 8px 15px 10px;
+  text-decoration: none !important;
+}
+
+.game-link:hover {
+  color: #f7f4ef;
+}
